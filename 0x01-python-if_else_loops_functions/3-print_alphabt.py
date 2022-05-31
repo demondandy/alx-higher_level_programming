@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for character in range(97, 123):
-    if(character != 101 and character != 113):
-        print("{:c}".format(character), end='')
+for letter in range(97, 123):
+    if letter == 101 or letter == 113:
+        continue
+
+    print("{:c}".format(letter), end='')
