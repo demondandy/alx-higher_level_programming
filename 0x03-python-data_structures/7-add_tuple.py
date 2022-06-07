@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 def return_value(tuple_v, idx):
     if idx >= len(tuple_v):
         return 0
